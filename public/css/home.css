@@ -1,0 +1,97 @@
+body {
+    margin:0;
+    width:100%;
+    overflow-x:hidden;
+
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: rgb(19, 29, 44);
+}
+
+.navbar {
+    padding:1vw;
+}
+
+.navbar-brand {
+    color:white;
+    font-weight: bold;
+    padding-left: 5vw;
+}
+
+
+hr{
+    border: 3px solid rgb(87, 172, 158);
+    margin: 0;
+}
+#image-title {
+    background-image: url(../images/bk.png);
+    background-color: rgb(19, 29, 44);
+    background-size: cover;
+}
+
+#appdemo {
+    width:40%;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+#intro {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+#intro p {
+    margin-top: 1em;
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#feature {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.feature-icon {
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#feature p {
+    font-size: 0.5em;
+    text-align: center;
+}
+#footer {
+    background-color: rgb(87, 172, 158);
+}
+#footer p{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 0.5em;
+    color:white;
+    text-align: center;
+}

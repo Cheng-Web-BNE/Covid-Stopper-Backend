@@ -1,0 +1,19 @@
+@import url('//cdn.datatables.net/1.10.2/css/jquery.dataTables.css');
+
+body{
+    border: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar{
+    padding: 1rem!important;
+}
+
+.details-control {
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+.shown .details-control {
+    background: url('http://www.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
